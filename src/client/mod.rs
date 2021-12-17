@@ -270,7 +270,7 @@ impl Client {
             handle: Some(handle),
         };
 
-        client.verify_versions().await?;
+        //client.verify_versions().await?;
 
         Ok(client)
     }
